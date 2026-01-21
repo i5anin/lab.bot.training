@@ -59,6 +59,7 @@ export default defineConfig(async ({ mode }) => {
   const openInEditor = await loadOpenInEditor()
 
   return {
+    clearScreen: false,
     plugins: createPlugins({ mode, openInEditor }),
     resolve: { alias: createAliases() },
     server: createServerConfig(),

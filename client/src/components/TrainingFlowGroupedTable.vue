@@ -47,30 +47,35 @@
 
     /** @type {TrainingGroup[]} */
     const list = Object.entries(byKey).map(([key, rows]) => {
+      const safeRows = Array.isArray(rows) ? rows : []
       /** @type {TrainingEntry | undefined} */
+      const first = safeRows.at(0)
 
       const notesText =
-        unique(rows.map((x) => toTrimmed(x.note)).filter(Boolean)).join(', ') ||
-        '-'
+        unique(safeRows.map((x) => toTrimmed(x.note)).filter(Boolean)).join(
+          ', '
+        ) || '-'
 
       const setsText = pipe(
-        rows,
+        safeRows,
         (r) => [...r],
         (r) => sortBy(r, [(x) => toNum(x.weight), 'asc']),
         (r) => r.map((x) => `${toNum(x.weight)}x${toNum(x.reps)}`).join('\n')
       )
 
+      const trainingAtIso = first?.trainingAtIso ?? null
+
       return {
         key,
         trainingNo: first?.trainingNo ?? null,
-        trainingAtIso: first?.trainingAtIso ?? null,
+        trainingAtIso,
         muscleGroup: first?.muscleGroup ?? '',
         workoutName: first?.workoutName ?? '',
-        rows,
-        dateText: formatIso(first?.trainingAtIso),
+        rows: safeRows,
+        dateText: trainingAtIso ? formatIso(trainingAtIso) : '-',
         notesText,
         setsText,
-        totalSets: rows.length,
+        totalSets: safeRows.length,
       }
     })
 
