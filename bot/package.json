@@ -62,6 +62,6 @@
     "ru-declensions-geo": "^1.0.13",
     "telegraf": "^4.16.3",
     "telegraf-session-local": "^2.1.1",
-    "vite": "^7.1.12"
+    "vite": "^7.3.2"
   }
 }
