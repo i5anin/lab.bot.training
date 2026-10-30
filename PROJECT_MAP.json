@@ -1,0 +1,2894 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "js-training-bot",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:js-training-bot",
+      "type": "project",
+      "name": "js-training-bot"
+    },
+    {
+      "id": "project:js-training-bot/file:bot/eslint.config.js",
+      "type": "file",
+      "path": "bot/eslint.config.js",
+      "sha256": "c029a281947eac3d69c50b2625860ddca48d2a7228f92cc65082c7822acfe81d",
+      "bytes": 5796
+    },
+    {
+      "id": "project:js-training-bot/file:bot/loaders/alias-loader.mjs",
+      "type": "file",
+      "path": "bot/loaders/alias-loader.mjs",
+      "sha256": "ecf17aa4d937869e21bef9159533d463a1df3ef269a852de6caeff624653886d",
+      "bytes": 753
+    },
+    {
+      "id": "project:js-training-bot/file:bot/loaders/register-alias.mjs",
+      "type": "file",
+      "path": "bot/loaders/register-alias.mjs",
+      "sha256": "5cbab6c39ed84c46968a20de7ee15b4bf81b188f336ebe682fb3ddec68413318",
+      "bytes": 456
+    },
+    {
+      "id": "project:js-training-bot/file:bot/package.json",
+      "type": "file",
+      "path": "bot/package.json",
+      "sha256": "2fac1165c6c753c63160a968179af5620e6bd2735c3caf7a84399549f8cdb423",
+      "bytes": 2037
+    },
+    {
+      "id": "project:js-training-bot/file:bot/scripts/fix-filepath-header.js",
+      "type": "file",
+      "path": "bot/scripts/fix-filepath-header.js",
+      "sha256": "312094489d4cf2d4f94641bdaa26dfbd4777450b624b575ffe34e6ed6af685d3",
+      "bytes": 5259
+    },
+    {
+      "id": "project:js-training-bot/file:bot/scripts/print-src-files.js",
+      "type": "file",
+      "path": "bot/scripts/print-src-files.js",
+      "sha256": "3dfaf85d4f56082cc9e8602b1fb669da66ea921a253725482c67cdb545771d00",
+      "bytes": 2252
+    },
+    {
+      "id": "project:js-training-bot/file:bot/scripts/replace-src-alias.js",
+      "type": "file",
+      "path": "bot/scripts/replace-src-alias.js",
+      "sha256": "51e42e4bc0edafa3b8339ba55519d7972949969ad5239e5bd0d094a35f28ca64",
+      "bytes": 2154
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/api/api-client.service.js",
+      "type": "file",
+      "path": "bot/src/api/api-client.service.js",
+      "sha256": "0bcbf4f570f83f8b5039bc33b1541ab4c2622710f5174f7f5dee59a4a622c433",
+      "bytes": 3350
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/api/api.repository.js",
+      "type": "file",
+      "path": "bot/src/api/api.repository.js",
+      "sha256": "a74648efba38884fe8d54da8c32496abdfe0118b9077fab8c3a9baf793058e5d",
+      "bytes": 18303
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/api/tg-transport-log.gateway.js",
+      "type": "file",
+      "path": "bot/src/api/tg-transport-log.gateway.js",
+      "sha256": "ee74bae6f6a6a7a4355cb2ec9ba051269e2b182d2bcfbd51557a23ef93ed4e51",
+      "bytes": 1518
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/app/app.js",
+      "type": "file",
+      "path": "bot/src/app/app.js",
+      "sha256": "d2d95ad41dd90065bd5c095e22e8fb091bdc1bbed91622895e6c43976deac6f7",
+      "bytes": 2307
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/domain/training/training.entity.js",
+      "type": "file",
+      "path": "bot/src/domain/training/training.entity.js",
+      "sha256": "a8463d558be3f3b4cc30f24b60117c1e3260160d81a2030fa2e8cd54f39d5c48",
+      "bytes": 1158
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/modifier.calculator.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/modifier.calculator.js",
+      "sha256": "c927e94106ab811c3f75ed4e581073ddef7d87714883ad6951be1be7e48a0d18",
+      "bytes": 115
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/modifier.parser.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/modifier.parser.js",
+      "sha256": "9a9164b84a6b7574b41af354df3131b485c9ee4b77eb2f5b3d8c1382874ffdf5",
+      "bytes": 199
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/training-log.flow.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/training-log.flow.js",
+      "sha256": "129374f7d837eaee44117e18436e9307c910aa117c06cc3b55d1b6f4bc12ed6a",
+      "bytes": 757
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/training-log.handlers.js",
+      "sha256": "bd89fed54e4b64359de308e67422e5dc01f8c67bc3d90fb52419420bb82e98af",
+      "bytes": 10282
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/training-log.keyboard.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/training-log.keyboard.js",
+      "sha256": "7edd3f48a72254485737689297375054338e2dbcaa2f234d41040c5da699e600",
+      "bytes": 1120
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/training-log.presenter.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/training-log.presenter.js",
+      "sha256": "c4d46483d8e156b56d88b91e5a7b512713e534d388976fd7807a3234cb07c547",
+      "bytes": 2384
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/training-log.ui.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/training-log.ui.js",
+      "sha256": "b8cfb0950c314a479724abc3b78f235917cc0b1c275903f8749eaf1ef2f53f72",
+      "bytes": 964
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/features/training-log/training-log.validators.js",
+      "type": "file",
+      "path": "bot/src/features/training-log/training-log.validators.js",
+      "sha256": "e0b4d5326ac9ad6f5eefa02c613bad1cc3fd5fec13f1ddabf608aa187b80d9d6",
+      "bytes": 1216
+    },
+    {
+      "id": "project:js-training-bot/file:bot/src/infrastructure/json-db/json-db.repository.js",
+      "type": "file",
+      "path": "bot/src/infrastructure/json-db/json-db.repository.js",
+      "sha256": "8434c7243646c01ca95bcb882f5535f70feded1368fac3c329c19ebe7e52a4ae",
+      "bytes": 951
+    },
+    {
+      "id": "project:js-training-bot/file:client/README.md",
+      "type": "file",
+      "path": "client/README.md",
+      "sha256": "fa9925a4f2074cd1703e21e9987f8e9db9373f0b9a368a0a6ee38925af06f471",
+      "bytes": 390
+    },
+    {
+      "id": "project:js-training-bot/file:client/eslint.config.js",
+      "type": "file",
+      "path": "client/eslint.config.js",
+      "sha256": "53d5fe06d31902fac0c3a49c0389c4bc212e90abee8380fac2870fe4d09bedf5",
+      "bytes": 3604
+    },
+    {
+      "id": "project:js-training-bot/file:client/package.json",
+      "type": "file",
+      "path": "client/package.json",
+      "sha256": "e5b3f402c92c01527416a4a242507880c5ebb60afc05404d8b39dac09407ba92",
+      "bytes": 1337
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/App.vue",
+      "type": "file",
+      "path": "client/src/App.vue",
+      "sha256": "b7c00b24b9c9a6b4922592789936261035eade574cf0aa7bcf8f5753ca42053a",
+      "bytes": 2838
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/api/trainingApi.js",
+      "type": "file",
+      "path": "client/src/api/trainingApi.js",
+      "sha256": "63ba355f326e02bfdd2785b5dcd0648d0bea8dddde4f2895ce4a18fcc395a4ab",
+      "bytes": 709
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/TrainingFlowEditor.vue",
+      "type": "file",
+      "path": "client/src/components/TrainingFlowEditor.vue",
+      "sha256": "515fd02c79c3608fdfb1e4f2b4080580231838cba23415e48b62a8e9d9507725",
+      "bytes": 7256
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/TrainingFlowGroupedTable.vue",
+      "type": "file",
+      "path": "client/src/components/TrainingFlowGroupedTable.vue",
+      "sha256": "7ff6be9927784644d1045ab3fd6a08ed6e9cdf9f5fe2c02cefcfacd94663923d",
+      "bytes": 3395
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/TrainingFlowTable.vue",
+      "type": "file",
+      "path": "client/src/components/TrainingFlowTable.vue",
+      "sha256": "2bb44e789ee9edb2fdd589eb561d5ccfd73985b1db7b433cae64768d12024439",
+      "bytes": 2674
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/button/Button.vue",
+      "type": "file",
+      "path": "client/src/components/ui/button/Button.vue",
+      "sha256": "1fbdbfbeb9f5bb6e99874d768b2423cd278bd88ccbcd4d4843f9b016dd8fa7e2",
+      "bytes": 684
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/button/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/button/index.ts",
+      "sha256": "cc5f3781cff4121e9cccab9974faadde0871755bdc7bacc80ecdbcd046f5b74f",
+      "bytes": 1541
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/Card.vue",
+      "type": "file",
+      "path": "client/src/components/ui/card/Card.vue",
+      "sha256": "15088a9cbf17d89b9fc73320345e7d64ec997f11bc9e3c059edc072afb408047",
+      "bytes": 379
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/CardContent.vue",
+      "type": "file",
+      "path": "client/src/components/ui/card/CardContent.vue",
+      "sha256": "e7b1cf37d87d35fd313be461b89aef7696c6c09e93f119079d3e99191139473e",
+      "bytes": 283
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/CardDescription.vue",
+      "type": "file",
+      "path": "client/src/components/ui/card/CardDescription.vue",
+      "sha256": "4917f644c3ee3f22731420643a6ba98d7d000d47f9e9433b51376e3f4a25beba",
+      "bytes": 300
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/CardFooter.vue",
+      "type": "file",
+      "path": "client/src/components/ui/card/CardFooter.vue",
+      "sha256": "4e467ff33e45f6b4b1f239238f6d3879ec1383a58f050be4248393f09a4bc420",
+      "bytes": 301
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/CardHeader.vue",
+      "type": "file",
+      "path": "client/src/components/ui/card/CardHeader.vue",
+      "sha256": "20db5c9ef8cb55679f12c6e720e8b280f82a78219fd96e8ef32f937f380ac7e8",
+      "bytes": 302
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/CardTitle.vue",
+      "type": "file",
+      "path": "client/src/components/ui/card/CardTitle.vue",
+      "sha256": "0f1de9eddd853723ab46c82daa264b0222f18555db05935dad652ecb42cd3f69",
+      "bytes": 337
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/card/index.ts",
+      "sha256": "9373a80cc562b9d570ddd3c58000d1e358c3da7776f6bbe87c2cc86b03c2da6c",
+      "bytes": 346
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/checkbox/Checkbox.vue",
+      "type": "file",
+      "path": "client/src/components/ui/checkbox/Checkbox.vue",
+      "sha256": "bed29acdff8d08baa5c24e275cd4dc593a19657a203fde698dae30d11caf771e",
+      "bytes": 1196
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/checkbox/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/checkbox/index.ts",
+      "sha256": "d43695f924ed8f635e6dd876542d814ae160f73c7f3a1d5ec4858542e1b485df",
+      "bytes": 54
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/Command.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/Command.vue",
+      "sha256": "883cb4240bb494ccb21cb3b6bbf988ea1516cbee55c4361d334b80a3c6b89c9a",
+      "bytes": 2424
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandDialog.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandDialog.vue",
+      "sha256": "1254df1ccefc9bdf111fbad23aba55c44891071f9859554e5397095c9ef77cff",
+      "bytes": 978
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandEmpty.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandEmpty.vue",
+      "sha256": "c82230f1ebea24642fd45b39b25e279ed8bd43fc8225cdddb224a1eaa4c03efd",
+      "bytes": 746
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandGroup.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandGroup.vue",
+      "sha256": "83ddf4624bb0dde41e378d6a0b27a206936b5a9f9e17afd3fd390cd0515a1ea4",
+      "bytes": 1484
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandInput.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandInput.vue",
+      "sha256": "33b86abb8dc83bc4d1ed8fd1ad76def4c3c386fcc4a140f8c44f373e35d8c8ec",
+      "bytes": 1114
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandItem.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandItem.vue",
+      "sha256": "32bbdb91adbe1af33f5c0acc83a7e699e5c6752daa1923fc8899b9c249dcff77",
+      "bytes": 2327
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandList.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandList.vue",
+      "sha256": "3d0da6355d6eee141f783ee646c7a1c62e6e75af780b50840f2a49571b50adcd",
+      "bytes": 690
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandSeparator.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandSeparator.vue",
+      "sha256": "0db3e5823e748188d057b2acb467efef0287e14b2bb5aab8da7b574ea5898256",
+      "bytes": 542
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/CommandShortcut.vue",
+      "type": "file",
+      "path": "client/src/components/ui/command/CommandShortcut.vue",
+      "sha256": "3c6bb6985b2fa8c0ccaf44787aed7fddcce7089c150947a220cf7e943ed23b5a",
+      "bytes": 330
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/command/index.ts",
+      "sha256": "67d3c3f28c370dcf42d7493728d877149ebc3d159cd58f751cf3ee75b7f5db80",
+      "bytes": 1042
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/Dialog.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/Dialog.vue",
+      "sha256": "ce73d70d279dcabf2c05f6f70a093c91bb61825e06d71cc5c21c819fcaae525f",
+      "bytes": 481
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogClose.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogClose.vue",
+      "sha256": "ad6d6e856efdc89e6a61784053f0d853869db33a61dbe561d97851c1fbf4a319",
+      "bytes": 304
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogContent.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogContent.vue",
+      "sha256": "1b6e65c5f3711d785e2d96fc74e6a038c6664def1f7f453a9c392187063e66f3",
+      "bytes": 2020
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogDescription.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogDescription.vue",
+      "sha256": "dfccff9a8f77b600997492e72b8aaffe4caacc98a53f815f481b1a2d4dad2efd",
+      "bytes": 702
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogFooter.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogFooter.vue",
+      "sha256": "f20ef8af778b00f90ec8dc9748546a3a4b39c57400136abb9742b827911cb264",
+      "bytes": 365
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogHeader.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogHeader.vue",
+      "sha256": "ef517992e31c596c0985aed54d520b7d48208b303e2dc5831150e3bccb09bcc9",
+      "bytes": 359
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogOverlay.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogOverlay.vue",
+      "sha256": "5c4e8c3aa89c998aefa68679fc99aecabd821e9e3e5488d46aa5c2c821728652",
+      "bytes": 724
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogScrollContent.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogScrollContent.vue",
+      "sha256": "6f5fd2d34ea7dc16dfdc86cb0c867b413f327cfdcf5eb1b03093b17d6a6c27f6",
+      "bytes": 1937
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogTitle.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogTitle.vue",
+      "sha256": "65e32c98b8c1c6b453f1f41d88297f43459a2d331863087c58d419c7a34999d5",
+      "bytes": 671
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/DialogTrigger.vue",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/DialogTrigger.vue",
+      "sha256": "0de74fd550060cb0ac6b8f69cfd957c8139e7546c0a243facb10a9d70a1e04b6",
+      "bytes": 316
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/dialog/index.ts",
+      "sha256": "e8d39f3154da4fd6a3ccc19bcb73642b165676b9044de7cb0d39cea086d7cd83",
+      "bytes": 634
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/input/Input.vue",
+      "type": "file",
+      "path": "client/src/components/ui/input/Input.vue",
+      "sha256": "72fcf82975a42f594f369093f494cb47fa9edce7bc2c56c105595ad6e5072264",
+      "bytes": 925
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/input/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/input/index.ts",
+      "sha256": "9a3580ea9e15d4f6b4e9ce5647de34992a32736707d47c373803155cc126f4e4",
+      "bytes": 48
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/label/Label.vue",
+      "type": "file",
+      "path": "client/src/components/ui/label/Label.vue",
+      "sha256": "5e92345a77eb93146ed668dfe13a0e847a9135c0ac61c11a9cdca353fe77fb41",
+      "bytes": 634
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/label/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/label/index.ts",
+      "sha256": "8ce3aadad284734758f66c4d3239b96e832d1aef6d63bb97b33c144978a71d2d",
+      "bytes": 48
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/popover/Popover.vue",
+      "type": "file",
+      "path": "client/src/components/ui/popover/Popover.vue",
+      "sha256": "d8a122ef78e9d2fe08e997bb78f045bb30a981d17cd04066b0619db8de4f19bb",
+      "bytes": 412
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/popover/PopoverContent.vue",
+      "type": "file",
+      "path": "client/src/components/ui/popover/PopoverContent.vue",
+      "sha256": "4ad99d4125f1564fc7069ed780263b3ca178c47690d465b396f720eca860d305",
+      "bytes": 1394
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/popover/PopoverTrigger.vue",
+      "type": "file",
+      "path": "client/src/components/ui/popover/PopoverTrigger.vue",
+      "sha256": "dae7a0de441244e4fce33b53ae084449cd648a7fb7a7e208327251ea006cb571",
+      "bytes": 280
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/popover/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/popover/index.ts",
+      "sha256": "263ec43b415f5885626d733ec319cf685fef142b3e3ff2ad7b741a4c4b70d195",
+      "bytes": 225
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/separator/Separator.vue",
+      "type": "file",
+      "path": "client/src/components/ui/separator/Separator.vue",
+      "sha256": "f5436bf4f21d8619c0167f907e42554094dc6bf0c587109f2eaeb9f0a2a8d1d8",
+      "bytes": 707
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/separator/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/separator/index.ts",
+      "sha256": "9142eded6109f174bd8859e4d3b2ed46514d0e58555b0c925733b643e7551616",
+      "bytes": 56
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/switch/Switch.vue",
+      "type": "file",
+      "path": "client/src/components/ui/switch/Switch.vue",
+      "sha256": "e3a4a39b828ef70588a011fc14f97e58325a855ffb9a53d7782976c8bcc8b14b",
+      "bytes": 1352
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/components/ui/switch/index.ts",
+      "type": "file",
+      "path": "client/src/components/ui/switch/index.ts",
+      "sha256": "2e85599884562d3f13413e4e7a6f25456e104a6c7885a74de806dc26999d0b73",
+      "bytes": 50
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/domain/trainingEntryRules.js",
+      "type": "file",
+      "path": "client/src/domain/trainingEntryRules.js",
+      "sha256": "8fe8f5147a2da440b3e2e1516d1b6cdcc4303d21d2b1a0c72fdb9ff77a418d9e",
+      "bytes": 1347
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/domain/trainingFlow.js",
+      "type": "file",
+      "path": "client/src/domain/trainingFlow.js",
+      "sha256": "92e3e71c7911ec7d3fdfa422c98f8ccc9fdfb1fb157d7427e773d96e51abcd39",
+      "bytes": 1318
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/lib/utils.js",
+      "type": "file",
+      "path": "client/src/lib/utils.js",
+      "sha256": "11e6925f33366460ea63f5ee5ebe88bc931bfeab1780de6653f05b1d86804726",
+      "bytes": 128
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/main.js",
+      "type": "file",
+      "path": "client/src/main.js",
+      "sha256": "cb4b44fb8b138a6f78736669df60c5e53d9d4166745c24831f15df779b385275",
+      "bytes": 136
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/services/trainingEntryFactory.js",
+      "type": "file",
+      "path": "client/src/services/trainingEntryFactory.js",
+      "sha256": "96a5425fd46e6ef6f83b59e6751f87fc4f6da5ad9ea5d36ffc408bad64787ea0",
+      "bytes": 728
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/shared/api/axiosInstance.js",
+      "type": "file",
+      "path": "client/src/shared/api/axiosInstance.js",
+      "sha256": "266072afb3b7eeb03b0d24330386f21519431f94e94acd69b43d31fdbbc6cdf5",
+      "bytes": 449
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/shared/api/httpHandlers.js",
+      "type": "file",
+      "path": "client/src/shared/api/httpHandlers.js",
+      "sha256": "a67f3ae5d346c682e5cb6362ac3ac63c7cf019056966870f2a8203ee6cff291b",
+      "bytes": 950
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/shared/dayjs.js",
+      "type": "file",
+      "path": "client/src/shared/dayjs.js",
+      "sha256": "bb0d9956195e84c19dc376b6ec045252c0c59b85a35c08500f48b82a9b139a68",
+      "bytes": 776
+    },
+    {
+      "id": "project:js-training-bot/file:client/src/shared/ui/useThemeMode.js",
+      "type": "file",
+      "path": "client/src/shared/ui/useThemeMode.js",
+      "sha256": "e6b7b9ef6a5f06d4f823ec0d6da2f0e3e3822c6b71acb216b65a6b1e490a1e28",
+      "bytes": 742
+    },
+    {
+      "id": "project:js-training-bot/file:client/tailwind.config.ts",
+      "type": "file",
+      "path": "client/tailwind.config.ts",
+      "sha256": "83825434c2551c9e4af41b42cb103e83cab9ef8466a0f8d691287ad5da0fc1d1",
+      "bytes": 259
+    },
+    {
+      "id": "project:js-training-bot/file:client/vite.config.js",
+      "type": "file",
+      "path": "client/vite.config.js",
+      "sha256": "fda68709466419c30ffbec07492b8f3302642716381563414abef7f3eebc5ee8",
+      "bytes": 1871
+    },
+    {
+      "id": "package:npm:@pm2/io",
+      "type": "package",
+      "name": "@pm2/io",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:axios",
+      "type": "package",
+      "name": "axios",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:chalk",
+      "type": "package",
+      "name": "chalk",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:core-js",
+      "type": "package",
+      "name": "core-js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:csv-writer",
+      "type": "package",
+      "name": "csv-writer",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:date-fns",
+      "type": "package",
+      "name": "date-fns",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dotenv",
+      "type": "package",
+      "name": "dotenv",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:googleapis",
+      "type": "package",
+      "name": "googleapis",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:grammy",
+      "type": "package",
+      "name": "grammy",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:moment",
+      "type": "package",
+      "name": "moment",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:node-cron",
+      "type": "package",
+      "name": "node-cron",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:node-fetch",
+      "type": "package",
+      "name": "node-fetch",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pm2",
+      "type": "package",
+      "name": "pm2",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:puppeteer",
+      "type": "package",
+      "name": "puppeteer",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ru-declensions-geo",
+      "type": "package",
+      "name": "ru-declensions-geo",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:telegraf",
+      "type": "package",
+      "name": "telegraf",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:telegraf-session-local",
+      "type": "package",
+      "name": "telegraf-session-local",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite",
+      "type": "package",
+      "name": "vite",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/js",
+      "type": "package",
+      "name": "@eslint/js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-import-resolver-alias",
+      "type": "package",
+      "name": "eslint-import-resolver-alias",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-boundaries",
+      "type": "package",
+      "name": "eslint-plugin-boundaries",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-check-file",
+      "type": "package",
+      "name": "eslint-plugin-check-file",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-github",
+      "type": "package",
+      "name": "eslint-plugin-github",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-import",
+      "type": "package",
+      "name": "eslint-plugin-import",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-jsdoc",
+      "type": "package",
+      "name": "eslint-plugin-jsdoc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-n",
+      "type": "package",
+      "name": "eslint-plugin-n",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-unicorn",
+      "type": "package",
+      "name": "eslint-plugin-unicorn",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-unused-imports",
+      "type": "package",
+      "name": "eslint-plugin-unused-imports",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:globals",
+      "type": "package",
+      "name": "globals",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:knip",
+      "type": "package",
+      "name": "knip",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:rimraf",
+      "type": "package",
+      "name": "rimraf",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:unimported",
+      "type": "package",
+      "name": "unimported",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vueuse/core",
+      "type": "package",
+      "name": "@vueuse/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dayjs",
+      "type": "package",
+      "name": "dayjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:primeicons",
+      "type": "package",
+      "name": "primeicons",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:reka-ui",
+      "type": "package",
+      "name": "reka-ui",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:remeda",
+      "type": "package",
+      "name": "remeda",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@tailwindcss/vite",
+      "type": "package",
+      "name": "@tailwindcss/vite",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@typescript-eslint/eslint-plugin",
+      "type": "package",
+      "name": "@typescript-eslint/eslint-plugin",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@typescript-eslint/parser",
+      "type": "package",
+      "name": "@typescript-eslint/parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vitejs/plugin-vue",
+      "type": "package",
+      "name": "@vitejs/plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-prettier",
+      "type": "package",
+      "name": "eslint-plugin-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-vue",
+      "type": "package",
+      "name": "eslint-plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:json-server",
+      "type": "package",
+      "name": "json-server",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:launch-editor-middleware",
+      "type": "package",
+      "name": "launch-editor-middleware",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:tailwindcss",
+      "type": "package",
+      "name": "tailwindcss",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite-plugin-vue-devtools",
+      "type": "package",
+      "name": "vite-plugin-vue-devtools",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-eslint-parser",
+      "type": "package",
+      "name": "vue-eslint-parser",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/eslint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/eslint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/loaders/alias-loader.mjs",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/loaders/alias-loader.mjs"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/loaders/register-alias.mjs",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/loaders/register-alias.mjs"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/scripts/fix-filepath-header.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/scripts/fix-filepath-header.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/scripts/print-src-files.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/scripts/print-src-files.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/scripts/replace-src-alias.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/scripts/replace-src-alias.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/api/api-client.service.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/api/api-client.service.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/api/api.repository.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/api/api.repository.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/api/tg-transport-log.gateway.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/api/tg-transport-log.gateway.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/app/app.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/app/app.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/domain/training/training.entity.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/domain/training/training.entity.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/modifier.calculator.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/modifier.calculator.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/modifier.parser.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/modifier.parser.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.flow.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.flow.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.handlers.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.keyboard.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.keyboard.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.presenter.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.presenter.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.ui.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.ui.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.validators.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.validators.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:bot/src/infrastructure/json-db/json-db.repository.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "bot/src/infrastructure/json-db/json-db.repository.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/eslint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/eslint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/api/trainingApi.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/trainingApi.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/TrainingFlowEditor.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/TrainingFlowEditor.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/TrainingFlowGroupedTable.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/TrainingFlowGroupedTable.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/TrainingFlowTable.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/TrainingFlowTable.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/button/Button.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/button/Button.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/button/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/button/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/Card.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/Card.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardContent.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/CardContent.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardDescription.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/CardDescription.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardFooter.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/CardFooter.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardHeader.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/CardHeader.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardTitle.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/CardTitle.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/checkbox/Checkbox.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/checkbox/Checkbox.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/checkbox/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/checkbox/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/Command.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/Command.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandDialog.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandDialog.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandEmpty.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandEmpty.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandGroup.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandGroup.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandInput.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandInput.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandItem.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandItem.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandSeparator.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandSeparator.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandShortcut.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandShortcut.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/Dialog.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/Dialog.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogClose.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogClose.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogContent.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogContent.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogDescription.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogDescription.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogFooter.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogFooter.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogHeader.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogHeader.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogOverlay.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogOverlay.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogScrollContent.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogScrollContent.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogTitle.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogTitle.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogTrigger.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogTrigger.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/input/Input.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/input/Input.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/input/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/input/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/label/Label.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/label/Label.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/label/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/label/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/Popover.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/popover/Popover.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/PopoverContent.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/popover/PopoverContent.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/PopoverTrigger.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/popover/PopoverTrigger.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/popover/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/separator/Separator.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/separator/Separator.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/separator/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/separator/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/switch/Switch.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/switch/Switch.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/components/ui/switch/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/ui/switch/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/domain/trainingEntryRules.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/domain/trainingEntryRules.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/domain/trainingFlow.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/domain/trainingFlow.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/lib/utils.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/lib/utils.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/main.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/main.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/services/trainingEntryFactory.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/services/trainingEntryFactory.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/shared/api/axiosInstance.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/shared/api/axiosInstance.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/shared/api/httpHandlers.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/shared/api/httpHandlers.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/shared/dayjs.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/shared/dayjs.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/src/shared/ui/useThemeMode.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/shared/ui/useThemeMode.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/tailwind.config.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/tailwind.config.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot",
+      "target": "project:js-training-bot/file:client/vite.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/vite.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/main.js",
+      "target": "project:js-training-bot/file:client/src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/main.js",
+      "target": "project:js-training-bot/file:client/src/shared/dayjs.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.flow.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.handlers.js",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.validators.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.handlers.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.keyboard.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.handlers.js",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/modifier.parser.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.handlers.js",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.handlers.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.ui.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.handlers.js",
+        "line": 10
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.presenter.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.flow.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.presenter.js",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.presenter.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/modifier.calculator.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.presenter.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.ui.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.presenter.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.ui.js",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/src/features/training-log/training-log.ui.js",
+      "target": "project:js-training-bot/file:bot/src/features/training-log/training-log.keyboard.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "bot/src/features/training-log/training-log.ui.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/button/Button.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/button/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/button/Button.vue",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/button/Button.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/button/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/button/Button.vue",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/button/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/button/Button.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/button/index.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/Card.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardContent.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardDescription.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardFooter.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardHeader.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/card/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/card/CardTitle.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/card/index.ts",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/checkbox/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/checkbox/Checkbox.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/checkbox/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/Command.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/Command.vue",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/CommandDialog.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/Command.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandDialog.vue",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/CommandEmpty.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandEmpty.vue",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/CommandGroup.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandGroup.vue",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/CommandInput.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandInput.vue",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/CommandItem.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/CommandItem.vue",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/Command.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandDialog.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandEmpty.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandGroup.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandInput.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandItem.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandList.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 10
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandSeparator.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 11
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/command/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/command/CommandShortcut.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/command/index.ts",
+        "line": 12
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/DialogContent.vue",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogOverlay.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/DialogContent.vue",
+        "line": 13
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/Dialog.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogClose.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogContent.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogDescription.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogFooter.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogHeader.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogOverlay.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogScrollContent.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogTitle.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/dialog/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/dialog/DialogTrigger.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/dialog/index.ts",
+        "line": 10
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/input/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/input/Input.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/input/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/label/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/label/Label.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/label/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/popover/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/Popover.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/popover/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/popover/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/PopoverContent.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/popover/index.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/popover/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/popover/PopoverTrigger.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/popover/index.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/separator/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/separator/Separator.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/separator/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:client/src/components/ui/switch/index.ts",
+      "target": "project:js-training-bot/file:client/src/components/ui/switch/Switch.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/components/ui/switch/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:@pm2/io",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:axios",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 49
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:chalk",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:core-js",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:csv-writer",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 52
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:date-fns",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 53
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 54
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:googleapis",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 55
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:grammy",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 56
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:moment",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 57
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:node-cron",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 58
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:node-fetch",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 59
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:pm2",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 60
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:puppeteer",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 61
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:ru-declensions-geo",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 62
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:telegraf",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 63
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:telegraf-session-local",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 64
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 65
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:@eslint/js",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-import-resolver-alias",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-boundaries",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-check-file",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-github",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 35
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-import",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 36
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-jsdoc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-n",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-unicorn",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:eslint-plugin-unused-imports",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:globals",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:knip",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:rimraf",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 44
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:bot/package.json",
+      "target": "package:npm:unimported",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "bot/package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:@vueuse/core",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:axios",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:dayjs",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:primeicons",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:reka-ui",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:remeda",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:@tailwindcss/vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:@typescript-eslint/eslint-plugin",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:@typescript-eslint/parser",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:@vitejs/plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:eslint-import-resolver-alias",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:eslint-plugin-import",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:eslint-plugin-unused-imports",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:eslint-plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:json-server",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 35
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:knip",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:launch-editor-middleware",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:tailwindcss",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 8
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:vite-plugin-vue-devtools",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:js-training-bot/file:client/package.json",
+      "target": "package:npm:vue-eslint-parser",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    }
+  ]
+}
